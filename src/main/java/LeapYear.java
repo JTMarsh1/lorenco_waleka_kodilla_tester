@@ -1,6 +1,6 @@
 public class LeapYear {
     public static void main(String[] args) {
-        int rok = 0;
+        int rok = 50;
         System.out.println("Podaj rok:");
         if ((rok % 4 == 0 && rok % 100 != 0) || rok % 400 == 0) {
             System.out.println("Ten rok jest przestepny.");
