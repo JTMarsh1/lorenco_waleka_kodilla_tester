@@ -1,19 +1,16 @@
-
 public class MainExtended{
     public static void main(String[] args) {
         String myname= "Lorenzo";
-        int mojwiek = 26;
-        double obwodwklatce= 99.8;
-        boolean obwodklatce = false ;
-        String ulubionysamcohod = "BMW" ;
-        boolean umiemprogramowac = false;
+        int myage = 26;
+        double scoreexam= 99.8;
+        boolean scorexam = false ;
+        String favoritecar = "BMW" ;
+        boolean icandance = false;
         System.out.println(myname);
-        System.out.println(mojwiek);
-        System.out.println(obwodwklatce);
-        System.out.println(obwodklatce);
-        System.out.println(ulubionysamcohod);
-        System.out.println(umiemprogramowac) ;
+        System.out.println(myage);
+        System.out.println(scoreexam);
+        System.out.println(scorexam);
+        System.out.println(favoritecar);
+        System.out.println(icandance) ;
     }
-
-
 }

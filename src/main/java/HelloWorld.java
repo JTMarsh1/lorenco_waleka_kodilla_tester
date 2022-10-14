@@ -5,9 +5,4 @@ public class HelloWorld {
         System.out.println("26");
         System.out.println("W");
     }
-
-
-
 }
-
-
