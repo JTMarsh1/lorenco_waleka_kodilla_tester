@@ -1,4 +1,5 @@
 public class Book {
+
     private String title;
     private String author;
 
@@ -7,22 +8,11 @@ public class Book {
         this.author = author;
     }
 
-    public String getTitle() {
-        return title;
+    public static Book of(String title, String author) {
+        return new Book(title, author);
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
     public String toString() {
-        return"Bookof{" + "title=" + title + ", author=" + author + '}';
+        return "Book{" + "title=" + title + ", author=" + author + '}';
     }
 }
