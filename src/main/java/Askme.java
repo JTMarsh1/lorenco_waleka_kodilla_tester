@@ -5,7 +5,7 @@ public class Askme {
     public static String getAskmee() {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Select your letter of color (R, B, G, Y),");
+            System.out.println("Select your letter of color ");
             String letters = scanner.nextLine().trim().toUpperCase();
             switch (letters) {
                 case "R":
@@ -21,17 +21,4 @@ public class Askme {
             }
         }
     }
-
-    public static String getAskmeee() {
-        Scanner scanner = new Scanner(System.in);
-        while (true) {
-            System.out.println("Chose one letter of color (R, B, G, Y) ");
-            String letter = scanner.nextLine().trim();
-            if (letter.length() <= 1) {
-                return letter;
-            }
-            System.out.println("You need to chose one letter:");
-        }
-    }
 }
-

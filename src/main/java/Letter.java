@@ -1,37 +1,14 @@
 public class Letter {
     public String takeit() {
-        String Ask = Askme.getAskmeee();
-        String a = Askme.getAskmee();
-        String result = "You pick wrong letter, try again";
-        switch (Ask) {
+        String result = Askme.getAskmee();
+        switch (result) {
             case "R":
             case "B":
             case "G":
             case "Y":
-                result = a;
+                result = result;
                 break;
         }
         return result;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
